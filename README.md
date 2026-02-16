@@ -1,52 +1,52 @@
 Proyecto Final de Ciberseguridad 4Geeks Academy Informe Forense y Pentesting — Caso de Incidente en Servidor Debian en 4Geeks Alumno: Victor Bravo Moreno
-Fase 1 Autopsia-	7
-1.- Autopsia	7
-1.1 Logs Apache2	7
-En esta primera fase, se procede a inspeccionar la máquina Debian comprometida, se utiliza el programa Autopsy para analizarla y buscar servicios, logs y archivos que pudieran tener comprometido al sistema, y detallar lo que ha pasado anteriormente, Todo esto ha sido con los tres pilares de análisis forense que son: Identificación, preservación y análisis y documentación y presentación.	7
-1.2 Descubrimientos de los Log	8
-1.3 Localizando usuarios y hashes	9
-1.4 Conclusión	15
-FASE 2 RedTeam Pentesting and Exploit	16
-2.- Reconocimiento	16
-2.1 Reconocimiento del objetivo y la red.	16
-2.2 Versiones y Vulnerabilidades	18
-Servicio FTP — vsftpd 3.0.3	19
-Servicio SSH — OpenSSH 9.2p1	19
-Servicio HTTP — Apache httpd 2.4.62	20
-2.3 Análisis WordPress puerto 80.	20
-Servicio HTTP — WordPress Core 6.9.1	21
-2.4 Conexión FTP usando anonymous	26
-2.5 SSH remoto	27
-2.6 Investigacion y recopilacion	29
-2.7 Acceso bases de datos, exploración y robo de información	32
-2.8 Explotación vulnerabilidad y ataque a máquina	35
-2.8.1 Creación Script	35
-2.8.2 Monitorización y ejecución	39
-2.9 Conclusiones Pentesting y Explotación.	43
-FASE 3 BlueTeam and Hardening	45
-3.1 PLAN DE RECUPERACIÓN DE LA MÁQUINA DEBIAN	45
-3.2 Bloqueo de servicios y sanitización.	49
-3.2.1 FTP puerto 21	49
-3.2.2 SSH BLOQUEO DE SERVICIO	51
-3.3 Limpieza usuarios no seguros MariaDB.	55
-3.4 Limpieza man-db, apt compat y apt.systemd.daily	58
-3.5 Instalación y configuración de antivirus.	59
-3.6 Sanitizacion Wordpress	63
-3.7 Configuración Apache2 por puerto 443	69
-3.8 Instalación Agente Wazuh.	69
-3.9 Instalación RKHUNTER y utilización	72
-3.10 Usuario debian.	74
-FASE 4 Plan de respuesta de incidentes y certificación	75
-4.1  Plan de respuesta a incidentes y SGSI (Seguridad Gestionada – ISO 27001)	75
-4.1.1: Creación del Plan de Respuesta a Incidentes (NIST SP 800-61)	75
-4.1.3: Implementación de mecanismos de protección de datos (backups, cifrado, control de accesos)	78
-4.1.4: Plan de respuesta a incidentes y SGSI	79
-4.1.5 Recomendaciones de Data Loss Prevention (DLP)	81
-4.1.6 Formalización del plan de recuperación y continuidad del negocio	82
-4.1.7 Presentación ejecutiva de resultados	83
-4.2 Conclusión y Referencias	84
-5.CONCLUSIONES	85
-6.RESUMEN EJECUTIVO	85
+Fase 1 Autopsia\
+1.- Autopsia	
+1.1 Logs Apache2	
+En esta primera fase, se procede a inspeccionar la máquina Debian comprometida, se utiliza el programa Autopsy para analizarla y buscar servicios, logs y archivos que pudieran tener comprometido al sistema, y detallar lo que ha pasado anteriormente, Todo esto ha sido con los tres pilares de análisis forense que son: Identificación, preservación y análisis y documentación y presentación.	
+1.2 Descubrimientos de los Log	
+1.3 Localizando usuarios y hashes	
+1.4 Conclusión	
+FASE 2 RedTeam Pentesting and Exploit	
+2.- Reconocimiento	
+2.1 Reconocimiento del objetivo y la red.	
+2.2 Versiones y Vulnerabilidades	
+Servicio FTP — vsftpd 3.0.3	
+Servicio SSH — OpenSSH 9.2p1	
+Servicio HTTP — Apache httpd 2.4.62	
+2.3 Análisis WordPress puerto 80.	
+Servicio HTTP — WordPress Core 6.9.1	
+2.4 Conexión FTP usando anonymous	
+2.5 SSH remoto	
+2.6 Investigacion y recopilacion	
+2.7 Acceso bases de datos, exploración y robo de información	
+2.8 Explotación vulnerabilidad y ataque a máquina	
+2.8.1 Creación Script	
+2.8.2 Monitorización y ejecución	
+2.9 Conclusiones Pentesting y Explotación.	
+FASE 3 BlueTeam and Hardening	
+3.1 PLAN DE RECUPERACIÓN DE LA MÁQUINA DEBIAN	
+3.2 Bloqueo de servicios y sanitización.	
+3.2.1 FTP puerto 21	
+3.2.2 SSH BLOQUEO DE SERVICIO	
+3.3 Limpieza usuarios no seguros MariaDB.	
+3.4 Limpieza man-db, apt compat y apt.systemd.daily	
+3.5 Instalación y configuración de antivirus.	
+3.6 Sanitizacion Wordpress	
+3.7 Configuración Apache2 por puerto 443	
+3.8 Instalación Agente Wazuh.	
+3.9 Instalación RKHUNTER y utilización	
+3.10 Usuario debian.	
+FASE 4 Plan de respuesta de incidentes y certificación	
+4.1  Plan de respuesta a incidentes y SGSI (Seguridad Gestionada – ISO 27001)	
+4.1.1: Creación del Plan de Respuesta a Incidentes (NIST SP 800-61)	
+4.1.3: Implementación de mecanismos de protección de datos (backups, cifrado, control de accesos)	
+4.1.4: Plan de respuesta a incidentes y SGSI	
+4.1.5 Recomendaciones de Data Loss Prevention (DLP)	
+4.1.6 Formalización del plan de recuperación y continuidad del negocio	
+4.1.7 Presentación ejecutiva de resultados	
+4.2 Conclusión y Referencias	
+5.CONCLUSIONES	
+6.RESUMEN EJECUTIVO	
 6.1 Objetivo	85
 6.2 Alcance del análisis	85
 6.4 Impacto potencial	86
