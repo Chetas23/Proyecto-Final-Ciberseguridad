@@ -1,5 +1,5 @@
 Proyecto Final de Ciberseguridad 4Geeks Academy Informe Forense y Pentesting — Caso de Incidente en Servidor Debian en 4Geeks Alumno: Victor Bravo Moreno
-Fase 1 Autopsia\
+Fase 1 Autopsia \
 1.- Autopsia	\
 1.1 Logs Apache2	\	
 1.2 Descubrimientos de los Log	\
